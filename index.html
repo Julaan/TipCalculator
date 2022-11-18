@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="script.js">
+    <title>Tip Caculator</title>
+</head>
+
+<body >
+    <div id="container">
+        <div>
+            <h1 class="title">Tip Calculator</h1>
+        </div>                  
+        
+        <div>
+            <form class="tipsForm">
+                <h3 class="intro">Making sharing costs among friends easier.</h3> 
+                <label for="bill">
+                    <p>How much was the bill?</p>
+                </label>
+                <p>
+                    R$ <input type="number" min="0" placeholder="100" name="bill" id="bill" class="formInput">
+                </p>            
+                
+                <label for="serviceQuality">
+                    <p>How did you like the service?</p>
+                </label>
+                <p>
+                    <select name="serviceQuality" id="serviceQuality" class="formSelect">
+                        <option disable selected value="0">--Select an option</option>
+                        <option value="0.3">30% - Extraordinary</option>
+                        <option value="0.2">20% - Very good</option>
+                        <option value="0.15">15% - Good</option>
+                        <option value="0.10">10% - Ok</option>
+                        <option value="0.05">5% - Bad</option>                    
+                    </select>
+                </p>
+                                    
+                <label for="people">
+                    <p>How many are sharing the bill?</p>              
+                </label>
+                <p>
+                    <input type="number"  min="2" placeholder="1" name="people" id="people" class="formInput"> people
+                </p>
+                
+                <button type="btnSubmit" class="formSubmit"> Calculate</button>
+                
+            </form>
+            
+        </div>
+                    
+    </div>
+</body>
+</html>
