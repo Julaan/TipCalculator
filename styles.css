@@ -8,8 +8,14 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background-image: url(./assets/pexels-monstera-6238068.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
     font-size: 15px;
+    margin:center;
     font-family: Lato, sans-serif;
 }
 
@@ -78,6 +84,7 @@ body {
     height: 50px;
     font-size: 17px;
     color: white;
+    box-shadow: 2px 3px 2px #3d213a;
  }
 
  .totalTip {
