@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+
 :root {
     --primary-color: #ae29a0;
     --secundary-color: #5b3871b3;
@@ -14,9 +15,9 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
-    font-size: 15px;
-    margin:center;
+    font-size: 16px;
     font-family: Lato, sans-serif;
+    
 }
 
 #container {
@@ -87,9 +88,10 @@ body {
     box-shadow: 2px 3px 2px #3d213a;
  }
 
- .totalTip {
-    font-size: 20px;
-    margin-top: 5px;
-    text-align: center;
- }
+.totalTip {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+ 
 
