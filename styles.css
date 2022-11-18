@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root {
-    --primary-color: lightcoral;
-    --secondary-color: dimgrey;
-    --tertiary-color: gainsboro;
+    --primary-color: #ae29a0;
+    --secundary-color: #5b3871b3;
+    --tertiary-color: #5921619c;
+    
 }
 
 body {
@@ -31,7 +32,7 @@ body {
     color: var(--secondary-color);
     padding: 20px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -72,10 +73,16 @@ body {
     display: block;
     margin: 30px auto;
     background-color: var(--primary-color);
-    border-radius: 5px;
+    border-radius: 25px;
     width: 200px;
     height: 50px;
     font-size: 17px;
     color: white;
+ }
+
+ .totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
  }
 
